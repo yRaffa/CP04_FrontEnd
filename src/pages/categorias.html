@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Categorias</title>
+    <title>EcoTrend | Categorias</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -14,8 +14,10 @@
 <body>
     <div class="container">
         <div class="row">
+            <!-- Filtros Laterais -->
             <div class="col-md-3 filters">
                 <h5>Filtrar por:</h5>
+                <!-- Filtro de Preço -->
                 <div class="form-group">
                     <label for="preco">Preço</label>
                     <select id="preco" class="form-control">
@@ -25,6 +27,7 @@
                         <option value="3">Acima de R$100</option>
                     </select>
                 </div>
+                <!-- Filtro de Tipo de Produto -->
                 <div class="form-group">
                     <label for="tipo-produto">Tipo de Produto</label>
                     <select id="tipo-produto" class="form-control">
@@ -35,13 +38,13 @@
                         <option value="tecnologia">Tecnologia Verde</option>
                     </select>
                 </div>
+                <!-- Filtro de Gênero -->
                 <div class="form-group">
-                    <label for="marca">Marca</label>
-                    <select id="marca" class="form-control">
-                        <option value="">Todas</option>
-                        <option value="marca1">Marca 1</option>
-                        <option value="marca2">Marca 2</option>
-                        <option value="marca3">Marca 3</option>
+                    <label for="genero">Gênero</label>
+                    <select id="genero" class="form-control">
+                        <option value="">Todos</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
                     </select>
                 </div>
             </div>
@@ -49,15 +52,15 @@
             <div class="col-md-9">
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="product-card" data-marca="marca1">
-                            <img src="" alt="Produto 1">
+                        <div class="product-card" data-genero="masculino">
+                            <img src="imagem-produto1.jpg" alt="Produto 1">
                             <h5>Produto 1</h5>
                             <p>R$ 49,90</p>
                             <button class="btn btn-primary">Adicionar ao Carrinho</button>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="product-card" data-marca="marca2">
+                        <div class="product-card" data-genero="feminino">
                             <img src="imagem-produto2.jpg" alt="Produto 2">
                             <h5>Produto 2</h5>
                             <p>R$ 79,90</p>
@@ -65,7 +68,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="product-card" data-marca="marca3">
+                        <div class="product-card" data-genero="masculino">
                             <img src="imagem-produto3.jpg" alt="Produto 3">
                             <h5>Produto 3</h5>
                             <p>R$ 99,90</p>
