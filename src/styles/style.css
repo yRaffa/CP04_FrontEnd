@@ -98,6 +98,10 @@ body {
     border-color: var(--eco-green) !important;
 }
 
+.collection-img img {
+    height: 400px;
+}
+
 /* .collection-img span {
     top: 20px;
     right: 20px;
