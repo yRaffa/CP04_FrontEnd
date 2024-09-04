@@ -32,7 +32,7 @@
       <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
         <!-- <img src="" alt="logo"> -->
         <ion-icon name="leaf"></ion-icon> <!-- Provisorio -->
-        <span class="text-uppercase fw-lighter ms-2 fw-bold">EcoTrand</span>
+        <span class="text-uppercase fw-lighter ms-2 fw-bold">EcoTrend</span>
       </a>
       <div class="order-lg-2 nav-btns">
         <button class="btn position-relative" type="button">
@@ -60,16 +60,153 @@
     </div>
   </nav>
 
-  <!-- Header -->
-  <header id="header" class="vh-100">
-    <div class="container h-100 d-flex align-items-center ">
-      <div class="text-center">
-        <h2 class="text-capitalize text-white">Melhores da Coleção</h2>
-        <h1 class="text-uppercase py-2 fw-bold text-white">Novos Produtos</h1>
+  <!-- Carroussel -->
+  <header id="header" class="vh-100 carousel slide" data-bs-ride="carousel">
+    <div class="container h-100 d-flex align-items-center carousel-inner">
+      <div class="text-center carousel-item active">
+        <h2 class="text-capitalize text-gray">Melhores da Coleção</h2>
+        <h1 class="text-uppercase py-2 fw-bold text-gray">Novos Produtos</h1>
         <a href="#" class="btn mt-3 text-uppercase">Comprar Agora</a>
       </div>
+      <div class="text-center carousel-item">
+        <h2 class="text-capitalize text-gray">Melhores Preços e Ofertas</h2>
+        <h1 class="text-uppercase py-2 fw-bold text-gray">Ajude o Mundo</h1>
+        <a href="#" class="btn mt-3 text-uppercase">Ver</a>
+      </div>
+      <div class="text-center carousel-item">
+        <h2 class="text-capitalize text-gray">Fique na Moda</h2>
+        <h1 class="text-uppercase py-2 fw-bold text-gray">Seja ECO</h1>
+        <a href="#" class="btn mt-3 text-uppercase">Saiba Mais</a>
+      </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
   </header>
+
+  <!-- Coleção -->
+  <section id="collection" class="py-5">
+    <div class="container">
+      <div class="title text-center">
+        <h2 class="position-relative d-inline-block">Nossos Produtos</h2>
+      </div>
+      <div class="row">
+        <div class="d-flex flex-wrap justify-content-center mt-5">
+          <button class="btn m-2 text-dark active-filter-btn" type="button">Todos</button>
+          <button class="btn m-2 text-dark" type="button">Mais Vendidos</button>
+          <button class="btn m-2 text-dark" type="button">Em Destaque</button>
+          <button class="btn m-2 text-dark" type="button">Novos</button>
+        </div>
+        <div class="collection-list mt-4 row">
+          <div class="col-md-6 col-lg-4 col-xl-4 p-2">
+            <div class="collection-img">
+              <img src="./src/img/roupa-01.png" alt="produto-01" class="w-100">
+              <!-- <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">10% OFF</span> -->
+            </div>
+            <div class="text-center ">
+              <div class="rating mt-3">
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+              </div>
+              <p class="text-capitalize my-1 ">Colete</p>
+              <span class="fw-bold">R$ 59,90</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-4 p-2">
+            <div class="collection-img">
+              <img src="./src/img/roupa-02.png" alt="produto-02" class="w-100">
+              <!-- <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">10% OFF</span> -->
+            </div>
+            <div class="text-center ">
+              <div class="rating mt-3">
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+              </div>
+              <p class="text-capitalize my-1 ">Calça Jeans</p>
+              <span class="fw-bold">R$ 119,90</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-4 p-2">
+            <div class="collection-img">
+              <img src="./src/img/roupa-03.png" alt="produto-03" class="w-100">
+              <!-- <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">10% OFF</span> -->
+            </div>
+            <div class="text-center ">
+              <div class="rating mt-3">
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+              </div>
+              <p class="text-capitalize my-1 ">Vestido</p>
+              <span class="fw-bold">R$ 79,90</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-4 p-2">
+            <div class="collection-img">
+              <img src="./src/img/roupa-04.png" alt="produto-04" class="w-100">
+              <!-- <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">10% OFF</span> -->
+            </div>
+            <div class="text-center ">
+              <div class="rating mt-3">
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+              </div>
+              <p class="text-capitalize my-1 ">Camiseta</p>
+              <span class="fw-bold">R$ 69,90</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-4 p-2">
+            <div class="collection-img">
+              <img src="./src/img/roupa-05.png" alt="produto-05" class="w-100">
+              <!-- <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">10% OFF</span> -->
+            </div>
+            <div class="text-center ">
+              <div class="rating mt-3">
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+              </div>
+              <p class="text-capitalize my-1 ">Camiseta</p>
+              <span class="fw-bold">R$ 69,90</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-4 p-2">
+            <div class="collection-img">
+              <img src="./src/img/roupa-06.png" alt="produto-06" class="w-100">
+              <!-- <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">10% OFF</span> -->
+            </div>
+            <div class="text-center ">
+              <div class="rating mt-3">
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+                <span class="text-primary"><i class="fas fa-star"></i></span>
+              </div>
+              <p class="text-capitalize my-1 ">Jaqueta</p>
+              <span class="fw-bold">R$ 129,90</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </section>
 </body>
 
 </html>

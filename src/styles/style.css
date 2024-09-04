@@ -8,6 +8,7 @@
     /* Colors */
     --eco-green: #68aa68;
     --gray: #555555;
+    --light-gray: #fafafa;
 }
 
 body {
@@ -57,11 +58,59 @@ body {
 
 /* Header */
 #header {
-    background: url(../img/banner-01.jpg) top/cover no-repeat;
+    background: url(../img/carroussel.jpg) top/cover no-repeat;
     padding-top: 110px;
 }
 
-/* Media Queries */
+.text-gray {
+    color: var(--light-gray);
+    text-shadow: var(--gray);
+}
+
+.carousel-inner h1 {
+    font-size: 60px;
+    font-family: var(--lg-font);
+}
+
+.carousel-item .btn {
+    border-color: white !important;
+}
+
+.carousel-item .btn:hover {
+    border-color: var(--eco-green) !important;
+}
+
+/* Coleção */
+.title h2::before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 50px;
+    background-color: var(--eco-green);
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.active-filter-btn {
+    background-color: var(--eco-green) !important;
+    color: white;
+    border-color: var(--eco-green) !important;
+}
+
+/* .collection-img span {
+    top: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+} */
+
+.text-primary {
+    color: var(--eco-green) !important;
+}
+
+/* Media Querry */
 @media(min-width: 992px){
     .nav-item {
         border-bottom: none;
