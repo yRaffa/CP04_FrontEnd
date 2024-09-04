@@ -1,13 +1,12 @@
 // pega os dados do arquivo .json
 
 let products = null;
-fetch("produtos.json")
+fetch("/src/scripts/produtos.json")
   .then((response) => response.json())
   .then((data) => {
     products = data;
     console.log(products);
   });
-
 // adiciona os produtos o HTML
 
 let listProduct = document.querySelector(""); // adicionar seletor do css
