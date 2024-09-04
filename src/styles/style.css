@@ -6,13 +6,64 @@
     --sm-font: 'Poppins', sans-serif;
 
     /* Colors */
-    --green: #68aa68;
+    --eco-green: #68aa68;
+    --gray: #555555;
 }
 
 body {
     font-family: var(--sm-font);
 }
 
+/* Botao */
 .bg-primary {
-    background-color: var(--green) !important;
+    background-color: var(--eco-green) !important;
+}
+
+.btn:not(.nav-btns button) {
+    background-color: white;
+    color: var(--gray);
+    border: 1px solid var(--gray);
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+
+.btn:not(.nav-btns button):hover {
+    background-color: var(--eco-green);
+    color: white;
+    border-color: var(--eco-green);
+}
+
+/* NavBar */
+.navbar {
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+.nav-brand ion-icon {
+    width: 30px;
+}
+
+.nav-brand span {
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+
+.nav-link:hover {
+    color: var(--eco-green) !important;
+}
+
+.nav-item {
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+#header {
+    background: url(../img/banner-01.jpg) top/cover no-repeat;
+    padding-top: 110px;
+}
+
+/* Media Queries */
+@media(min-width: 992px){
+    .nav-item {
+        border-bottom: none;
+    }
 }
