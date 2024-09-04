@@ -1,5 +1,118 @@
-* {
-    padding: 0;
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    /* Fonts */
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+
+    /* Colors */
+    --eco-green: #68aa68;
+    --gray: #555555;
+    --light-gray: #fafafa;
 }
 
+body {
+    font-family: var(--sm-font);
+}
+
+/* Botao */
+.bg-primary {
+    background-color: var(--eco-green) !important;
+}
+
+.btn:not(.nav-btns button) {
+    background-color: white;
+    color: var(--gray);
+    border: 1px solid var(--gray);
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+
+.btn:not(.nav-btns button):hover {
+    background-color: var(--eco-green);
+    color: white;
+    border-color: var(--eco-green);
+}
+
+/* NavBar */
+.navbar {
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+.nav-brand ion-icon {
+    width: 30px;
+}
+
+.nav-brand span {
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+
+.nav-link:hover {
+    color: var(--eco-green) !important;
+}
+
+.nav-item {
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+#header {
+    background: url(../img/carroussel.jpg) top/cover no-repeat;
+    padding-top: 110px;
+}
+
+.text-gray {
+    color: var(--light-gray);
+    text-shadow: var(--gray);
+}
+
+.carousel-inner h1 {
+    font-size: 60px;
+    font-family: var(--lg-font);
+}
+
+.carousel-item .btn {
+    border-color: white !important;
+}
+
+.carousel-item .btn:hover {
+    border-color: var(--eco-green) !important;
+}
+
+/* Coleção */
+.title h2::before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 50px;
+    background-color: var(--eco-green);
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.active-filter-btn {
+    background-color: var(--eco-green) !important;
+    color: white;
+    border-color: var(--eco-green) !important;
+}
+
+/* .collection-img span {
+    top: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+} */
+
+.text-primary {
+    color: var(--eco-green) !important;
+}
+
+/* Media Querry */
+@media(min-width: 992px){
+    .nav-item {
+        border-bottom: none;
+    }
+}
