@@ -1,170 +1,170 @@
 [
   {
     "id": 1,
-    "name": "saiba mais",
+    "name": "Óleo facial",
     "price": 100,
     "image": "/src/img/beleza-01.avif"
   },
   {
     "id": 2,
-    "name": "vestido-fem",
+    "name": "Rímel",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/beleza-02.jpg"
   },
   {
     "id": 3,
-    "name": "vestido-fem",
+    "name": "Sabonete Intimo",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/beleza-03.jpg"
   },
   {
     "id": 4,
-    "name": "vestido-fem",
+    "name": "Sabonete",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/beleza-04.jpg"
   },
   {
     "id": 5,
-    "name": "vestido-fem",
+    "name": "Shampoo",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/beleza-05.jpg"
   },
   {
     "id": 6,
-    "name": "vestido-fem",
+    "name": "Batom",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/beleza-04.jpeg"
   },
   {
     "id": 7,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   },
   {
     "id": 8,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   },
   {
     "id": 9,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   },
   {
     "id": 10,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   },
   {
     "id": 11,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   },
   {
     "id": 12,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   },
   {
     "id": 13,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   },
   {
     "id": 14,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   },
   {
     "id": 15,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   },
   {
     "id": 16,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   },
   {
     "id": 17,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   },
   {
     "id": 18,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   },
   {
     "id": 19,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   },
   {
     "id": 20,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   },
   {
     "id": 21,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   },
   {
     "id": 22,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   },
   {
     "id": 23,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   },
   {
     "id": 24,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   },
   {
     "id": 25,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   },
   {
     "id": 26,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   },
   {
     "id": 27,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   },
   {
     "id": 28,
     "name": "vestido-fem",
     "price": 100,
-    "image": "/src/"
+    "image": "/src/img/"
   }
 ]
