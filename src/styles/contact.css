@@ -336,52 +336,19 @@ footer a:hover {
     color: var(--eco-green) !important;
 }
 
-@media(min-width: 992px) {
+@media(max-width: 992px) {
     .nav-item {
         border-bottom: none;
     }
-    
+    .form{
+        grid-template-columns: 1fr
+    }
+      .contact-info:before {
+        bottom: initial;
+        top: -75px;
+        right: 65px;
+        transform: scale(0.95);
+      }
 }
 
-@media (max-width: 480px) {
-    .container {
-      padding: 1.5rem;
-    }
-  
-    .contact-info:before {
-      display: none;
-    }
 
-    form,
-    .contact-info {
-      padding: 1.7rem 1.6rem;
-    }
-  
-    .text,
-    .information,
-    .social-media p {
-      font-size: 0.8rem;
-    }
-  
-    .title {
-      font-size: 1.15rem;
-    }
-  
-    .social-icons a {
-      width: 30px;
-      height: 30px;
-      line-height: 30px;
-    }
-  
-    .icon {
-      width: 23px;
-    }
-  
-    .input {
-      padding: 0.45rem 1.2rem;
-    }
-  
-    .btn {
-      padding: 0.45rem 1.2rem;
-    }
-  }
