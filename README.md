@@ -29,7 +29,7 @@ O EcoTrend é um site de e-commerce que apresenta produtos nas seguintes categor
 
 4. **Nicolas Caciolato Reis**
    - **RM:** 556506
-   - **Função:** 
+   - **Função:*Página de contato* 
 
 5. **Djalma Moreira de Andrade Filho**
    - **RM:** 555530
