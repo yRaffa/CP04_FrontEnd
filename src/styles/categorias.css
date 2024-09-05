@@ -14,6 +14,8 @@ body {
     font-family: var(--sm-font);
     background-color: var(--light-gray);
 }
+
+/* NavBar */
 .navbar {
     box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
     background-color: white;
@@ -78,16 +80,16 @@ body {
     font-family: var(--lg-font);
     color: var(--eco-green);
 }
-footer {
-    background-color: var(--footer);
-    color: white;
-    padding: 20px 0;
+footer .brand {
     font-family: var(--lg-font);
-    text-align: center;
+    letter-spacing: 2px;
+}
+
+.text-footer {
+    color: var(--footer);
 }
 
 footer a {
-    color: white;
     transition: color 0.3s ease;
 }
 
