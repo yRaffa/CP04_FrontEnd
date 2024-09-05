@@ -36,9 +36,22 @@ body {
 }
 
 /* NavBar */
+
+.container1 {
+    background: linear-gradient(transparent 100%);
+    position: relative;
+    width: 100%;
+    min-height: 15vh;
+    padding: 2rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .navbar {
     box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
-    height: 10vh;
+    height: 12vh;
     width: 100%;
 }
 
@@ -122,6 +135,39 @@ body {
     transform: rotate(45deg);
     top: 50px;
     left: -13px;
+}
+
+form{
+    padding: 2.3rem 2.2rem;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+}
+
+.title{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 0.7rem;
+}
+
+/* Footer */
+footer .brand {
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+}
+
+.text-footer {
+    color: var(--footer);
+}
+
+footer a {
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--eco-green) !important;
 }
 
 /* Media Querry */
