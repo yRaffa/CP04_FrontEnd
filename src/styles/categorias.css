@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
 
 :root {
     --lg-font: 'Kaisei Tokumin', serif;
@@ -7,7 +7,6 @@
     --gray: #555555;
     --light-gray: #f5f5f5;
     --footer: #858585;
-    
 }
 
 body {
@@ -17,7 +16,6 @@ body {
 
 .bg-primary {
     background-color: var(--eco-green) !important;
-    
 }
 
 .btn:not(.nav-btns button) {
@@ -25,15 +23,13 @@ body {
     color: var(--gray);
     border: 1px solid var(--gray);
     border-radius: 25px;
-    padding: 10px 30px;
-    
+    padding: 10px 20px;
 }
 
 .btn:not(.nav-btns button):hover {
     background-color: var(--eco-green);
     color: white;
     border-color: var(--eco-green);
-    
 }
 
 .navbar {
@@ -61,17 +57,21 @@ body {
 .nav-item {
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
 }
+
 .card {
     border: 1px solid var(--gray);
     border-radius: 10px;
     overflow: hidden;
     background-color: white;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    
+    justify-content: center;
+    height: 450px; 
 }
 
 .card-img-top {
-    height: 300px;
+    height: 200px; 
     object-fit: cover;
     width: 100%;
 }
@@ -79,21 +79,33 @@ body {
 .card-body {
     font-family: var(--sm-font);
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1; 
 }
 
 .card-body .h6 {
     font-family: var(--lg-font);
     color: var(--gray);
+    padding: 10px;
+    text-align: center;
 }
 
 .card-body .h5 {
     font-family: var(--lg-font);
     color: var(--eco-green);
+    padding: 10px;
+    text-align: center;
 }
 
 .card-body i {
     color: var(--eco-green);
+    margin-top: 10px;
 }
+
 .bg-light {
     background-color: var(--light-gray) !important;
 }
@@ -102,6 +114,7 @@ body {
     font-family: var(--lg-font);
     color: var(--eco-green);
 }
+
 footer .brand {
     font-family: var(--lg-font);
     letter-spacing: 2px;
@@ -111,6 +124,10 @@ footer .brand {
     color: var(--footer);
 }
 
+.titulo {
+    margin-top: 100px;
+}
+
 footer a {
     transition: color 0.3s ease;
 }
@@ -118,9 +135,9 @@ footer a {
 footer a:hover {
     color: var(--eco-green) !important;
 }
-@media(min-width: 992px){
+
+@media(min-width: 992px) {
     .nav-item {
         border-bottom: none;
     }
 }
-
