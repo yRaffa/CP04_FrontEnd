@@ -10,23 +10,6 @@ fetch("/src/scripts/produtos.json")
   });
 // adiciona os produtos o HTML
 
-let listProduct = document.querySelectorAll(".produto"); // adicionar seletor do css
-function addDataToHTML() {
-  products.forEach((product) => {
-    // cria novo elemento
-    let newProduct = document.createElement("a");
-    newProduct.href = "/src/pages/descricao.html?id=" + product.id; //referencia o arquivo html com os detalhes
-    newProduct.classList.add("item");
-    newProduct.innerHTML = `
-        <img src="${product.img}">
-        <h2>${product.name}</h2>
-        <div class="price">${product.price} </div>;
-    `;
-
-    // add o elemnto na classe contida na variavel listProduct
-    listProduct.appendChild(newProduct);
-  });
-}
 
 let productDivs = document.querySelectorAll(".produto"); // seleciona todas as divs com a classe 'produto'
 
