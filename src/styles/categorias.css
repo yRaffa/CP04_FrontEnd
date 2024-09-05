@@ -8,6 +8,7 @@
     --gray: #555555;
     --light-gray: #f5f5f5;
     --footer: #858585;
+    
 }
 
 body {
@@ -15,7 +16,27 @@ body {
     background-color: var(--light-gray);
 }
 
-/* NavBar */
+.bg-primary {
+    background-color: var(--eco-green) !important;
+    
+}
+
+.btn:not(.nav-btns button) {
+    background-color: white;
+    color: var(--gray);
+    border: 1px solid var(--gray);
+    border-radius: 25px;
+    padding: 10px 30px;
+    
+}
+
+.btn:not(.nav-btns button):hover {
+    background-color: var(--eco-green);
+    color: white;
+    border-color: var(--eco-green);
+    
+}
+
 .navbar {
     box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
     background-color: white;
@@ -46,6 +67,8 @@ body {
     border-radius: 10px;
     overflow: hidden;
     background-color: white;
+    align-items: center;
+    
 }
 
 .card-img-top {
@@ -101,3 +124,4 @@ footer a:hover {
         border-bottom: none;
     }
 }
+
