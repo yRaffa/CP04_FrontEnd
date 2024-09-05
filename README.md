@@ -17,7 +17,7 @@ O EcoTrend é um site de e-commerce que apresenta produtos nas seguintes categor
 
 1. **Gabriel Terra Lilla dos Santos**
    - **RM:** 554575
-   - **Função:** 
+   - **Função:** Responsável pela parte de categorias do site e todas suas sub-páginas.
 
 2. **Rafael Federici de Oliveira**
    - **RM:** 554736
