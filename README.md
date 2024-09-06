@@ -21,7 +21,7 @@ O EcoTrend é um site de e-commerce que apresenta produtos nas seguintes categor
 
 2. **Rafael Federici de Oliveira**
    - **RM:** 554736
-   - **Função:** 
+   - **Função:** Responsável pela home page e footer. 
 
 3. **Felipe Paes de Barros Muller Carioba**
    - **RM:** 558447
@@ -29,7 +29,7 @@ O EcoTrend é um site de e-commerce que apresenta produtos nas seguintes categor
 
 4. **Nicolas Caciolato Reis**
    - **RM:** 556506
-   - **Função:*Página de contato* 
+   - **Função** Responsável pela página de contato.
 
 5. **Djalma Moreira de Andrade Filho**
    - **RM:** 555530
