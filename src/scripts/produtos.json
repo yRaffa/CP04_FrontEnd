@@ -37,9 +37,9 @@
   },
   {
     "id": 7,
-    "name": "vestido-fem",
+    "name": "camiseta verao",
     "price": 100,
-    "image": "/src/img/"
+    "image": "/src/img/produto-01.png"
   },
   {
     "id": 8,
